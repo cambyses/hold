@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -271,6 +272,7 @@ h1, h2, h3, h4, h5, h6 {
   content: 'viewport-units-buggyfill; height:100vh; width: 100vw';
   display: table;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-header {
     height: auto !important;
@@ -279,6 +281,7 @@ h1, h2, h3, h4, h5, h6 {
     content: 'viewport-units-buggyfill; width: 100vw';
   }
 }
+
 #fh5co-header .fh5co-text-wrap {
   height: 100vh;
   width: 100vw;
@@ -286,6 +289,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table-cell;
   vertical-align: middle;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-header .fh5co-text-wrap {
     height: auto !important;
@@ -314,8 +318,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3em 0;
     height: 100vh;
     width: 100vw;
-    content: 'viewport-units-buggyfill; height:100vh; width: 100vw'; 
-  text-align: center;
+    /* content: 'viewport-units-buggyfill; height:100vh; width: 100vw';  */
+  text-align: left;
 }
 
 
