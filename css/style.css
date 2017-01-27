@@ -295,7 +295,10 @@ h1, h2, h3, h4, h5, h6 {
     content: 'viewport-units-buggyfill; height:100vh; width: 100vw';
   }
 }
-#fh5co-header .fh5co-intro-text {
+
+/* =======================================================
+*
+*  #fh5co-header .fh5co-intro-text {
   -webkit-transform: skewY(-7deg);
   -moz-transform: skewY(-7deg);
   -ms-transform: skewY(-7deg);
@@ -303,6 +306,19 @@ h1, h2, h3, h4, h5, h6 {
   transform: skewY(-7deg);
   text-align: center;
 }
+*
+* ======================================================= */
+
+#fh5co-header .fh5co-intro-text {
+    height: auto !important;
+    padding: 3em 0;
+    height: 100vh;
+    width: 100vw;
+    content: 'viewport-units-buggyfill; height:100vh; width: 100vw'; 
+  text-align: center;
+}
+
+
 #fh5co-header h1 {
   font-size: 3.5em;
   line-height: 100px;
