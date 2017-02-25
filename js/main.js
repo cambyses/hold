@@ -2,9 +2,8 @@
 	
 	'use strict';
 
-
-
-	// iPad and iPod detection	
+	// iPad and iPod detection codes
+	
 	var isiPad = function(){
 		return (navigator.platform.indexOf("iPad") != -1);
 	};
@@ -16,7 +15,6 @@
 	    );
 	};
 
-
 	// Go to next section
 	var gotToNextSection = function(){
 		var el = $('.fh5co-learn-more'),
@@ -26,6 +24,7 @@
 	};
 
 	// Loading page
+	
 	var loaderPage = function() {
 		$(".fh5co-loader").fadeOut("slow");
 	};
@@ -43,8 +42,6 @@
 			return false;
 		});
 	};
-
-	
 
 	var styleToggle = function() {
 
